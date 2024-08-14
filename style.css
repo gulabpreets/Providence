@@ -290,15 +290,6 @@ body::-webkit-scrollbar {
     flex-direction: column;
 }
 
-.plContent::before {
-    content: "";
-    position: absolute;
-    left: 45px; /* Adjust based on the exact position of the icons */
-    top: 500px;
-    bottom: 0;
-    width: 2px;
-    background: linear-gradient(to bottom, #00338e 25%, rgba(0, 51, 142, 0) 0%) center/1px 8px;
-}
 
 .plLandText{
     display: flex;
